@@ -1,34 +1,44 @@
-# Jarvis AI Assistant 🤖
+# 🤖 Jarvis AI Voice Assistant
 
-A Python-based voice assistant that can understand user commands, provide responses, access external APIs, and perform desktop automation.
+A Python-based voice-controlled AI assistant that combines speech recognition, AI-powered responses, text-to-speech, web automation, API integrations, and persistent memory.
 
 ## ✨ Features
 
-- 🎙️ Voice-based interaction
-- 🤖 AI-powered responses
+- 🎙️ Voice input using microphone and speech recognition
+- 🔊 Text-to-speech responses
+- 🤖 AI-powered conversations using the Groq API
 - 🌦️ Weather information
-- 🕐 Date and time information
-- 🌐 Opens applications such as Chrome
-- 💬 Opens applications such as WhatsApp
-- 🖥️ Desktop automation
-- 🔌 External API integration
+- 📰 News headlines
+- 🕐 Current time and date
+- 🌐 Website launching and web automation
+- 🔎 Google search
+- ▶️ YouTube search
+- 🧠 Persistent memory using JSON
+- 💻 Basic system controls
+- 😄 AI-generated responses
 
-## 🛠️ Technologies Used
+## 🛠️ Technologies
 
 - Python
-- External APIs
-- Voice interaction libraries
-- Desktop automation tools
+- Groq API
+- OpenWeather API
+- SpeechRecognition
+- pyttsx3
+- SoundDevice
+- SciPy
+- NumPy
+- Requests
+- python-dotenv
+- JSON
+- Git & GitHub
 
-## 📌 Project Overview
+## 📁 Project Structure
 
-This project was created as a personal software project to explore AI assistants, Python programming, API integration, and desktop automation.
-
-The assistant listens for user commands and performs different actions based on the requested task.
-
-## 🚀 Getting Started
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/omkardhondiba-91crypto/jarvis-ai-assistant.git
+```text
+jarvis-ai-assistant/
+├── jarvis.py
+├── jarvis_memory.json
+├── requirements.txt
+├── .env.example
+├── .gitignore
+└── README.md

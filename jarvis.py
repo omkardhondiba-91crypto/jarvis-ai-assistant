@@ -56,7 +56,7 @@ def speak(text):
 def ask_jarvis(question):
     history.append({"role": "user", "content": question})
     response = client.chat.completions.create(
-        model="llama-3.3-70b-versatile",
+        model="openai/gpt-oss-120b",
         messages=history
     )
     answer = response.choices[0].message.content
